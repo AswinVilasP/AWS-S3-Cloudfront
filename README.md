@@ -120,3 +120,11 @@ storage_backends.py:
         default_acl = 'private'  # Or 'public-read' if you want them to be public
 
 The above settings is an example settings for storing django static and media files in aws S3 bucket using cloufront.
+
+## Refrenece
+Links:
+1. https://testdriven.io/blog/storing-django-static-and-media-files-on-amazon-s3/#static-files
+
+2. https://shrinidhinhegde.medium.com/how-to-serve-django-static-files-in-a-production-environment-from-a-private-s3-bucket-using-aee840a5a643
+
+3. https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html
